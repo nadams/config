@@ -1,15 +1,15 @@
 [user]
-	email = nadams@node-3.net
-	name = Nick Adams
+  email = nadams@node-3.net
+  name = Nick Adams
 [color]
-	ui = auto
+  ui = auto
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
 [merge]
-	tool = vimdiff
-	conflictstyle = diff3
+  tool = vimdiff
+  conflictstyle = diff3
 [mergetool "p4merge"]
   cmd = p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [mergetool]
   keepBackup = false
-	prompt = false
+  prompt = false
